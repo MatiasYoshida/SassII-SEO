@@ -1,0 +1,18 @@
+
+//variables
+@import './variables/colores.scss';
+@import './variables/extends.scss';
+@import './variables/tamanios.scss';
+
+//secciones
+@import './secciones/footer.scss';
+@import './secciones/header.scss';
+@import './secciones/contacto.scss';
+
+
+
+*,
+*::before,
+*::after {
+  box-sizing: content-box;
+}

@@ -1,0 +1,27 @@
+#contacto{
+        grid-area: seccionContacto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 3rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        background-color: antiquewhite;
+        
+        form{
+            display: flex;
+            flex-direction: column;
+            div{
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                label{
+                    color: var(--bs-blue);
+                }
+            }
+        }
+    }
+
+
+

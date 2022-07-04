@@ -1,0 +1,57 @@
+header { 
+    
+    @extend %header;
+
+    nav{
+        display: flex;  
+    }
+    img{
+        @include img(1rem,9rem);
+    }
+    nav{
+        ul{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 3rem;
+            margin: 1rem;
+            padding: 1rem;
+            justify-content: flex-end;
+
+            li{
+                margin: .5rem;
+                width: 100px;
+                text-align: center;
+                list-style: none;
+                background-color: white;
+                padding: 5px;
+                border: solid 3px black;
+                border-radius: 10px;
+
+                &:hover{
+                    background-color: rgb(99, 165, 240);
+                    transform: scale(1.2);
+                    transition: .5s;
+                }
+                
+                a{
+                    color: $colorAzul;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
